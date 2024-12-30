@@ -1,0 +1,28 @@
+{
+  "id": "docs/introduction/server-and-client-combined",
+  "title": "Server and client combined",
+  "description": "Drayman allows using server-side and client-side code together. This allows you to easily combine server-side libraries, file-system queries, database connections, managing user-sensitive data and creating UI inside single script.",
+  "source": "@site/docs/docs/introduction/server-and-client-combined.mdx",
+  "sourceDirName": "docs/introduction",
+  "slug": "/docs/introduction/server-and-client-combined",
+  "permalink": "/BSTDocs/docs/docs/introduction/server-and-client-combined",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/docs/introduction/server-and-client-combined.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "title": "Server and client combined",
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Getting started",
+    "permalink": "/BSTDocs/docs/docs/introduction/getting-started"
+  },
+  "next": {
+    "title": "Configuration",
+    "permalink": "/BSTDocs/docs/docs/introduction/configuration"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "docs/web-components/drayman-elements",
+  "title": "@drayman/elements",
+  "description": "@drayman/elements is an official collection of Web Components compatible with Drayman.",
+  "source": "@site/docs/docs/web-components/drayman-elements.mdx",
+  "sourceDirName": "docs/web-components",
+  "slug": "/docs/web-components/drayman-elements",
+  "permalink": "/BSTDocs/docs/docs/web-components/drayman-elements",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/docs/web-components/drayman-elements.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "title": "@drayman/elements",
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "The ComponentInstance object",
+    "permalink": "/BSTDocs/docs/docs/components-in-depth/helpers/the-component-instance-object"
+  },
+  "next": {
+    "title": "PostCSS and Tailwind CSS",
+    "permalink": "/BSTDocs/docs/docs/postcss-and-tailwind-css"
+  }
+}

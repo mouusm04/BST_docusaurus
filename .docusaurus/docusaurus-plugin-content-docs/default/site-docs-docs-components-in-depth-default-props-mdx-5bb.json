@@ -1,0 +1,28 @@
+{
+  "id": "docs/components-in-depth/default-props",
+  "title": "Default props",
+  "description": "defaultProps can be used to set default values for props. To set default values for props, export a defaultProps object from your component. This object will be merged with the props object passed to the component.",
+  "source": "@site/docs/docs/components-in-depth/default-props.mdx",
+  "sourceDirName": "docs/components-in-depth",
+  "slug": "/docs/components-in-depth/default-props",
+  "permalink": "/BSTDocs/docs/docs/components-in-depth/default-props",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/docs/components-in-depth/default-props.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "title": "Default props",
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Component lifecycle",
+    "permalink": "/BSTDocs/docs/docs/components-in-depth/component-lifecycle"
+  },
+  "next": {
+    "title": "Handling events",
+    "permalink": "/BSTDocs/docs/docs/components-in-depth/handling-events"
+  }
+}

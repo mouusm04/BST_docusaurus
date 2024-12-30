@@ -1,0 +1,424 @@
+{
+  "/BSTDocs/__docusaurus/debug-aa3": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---bst-docs-docusaurus-debugb-38-7a3"
+    }
+  },
+  "/BSTDocs/__docusaurus/debug/config-f42": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---bst-docs-docusaurus-debugb-38-7a3"
+    }
+  },
+  "/BSTDocs/__docusaurus/debug/content-331": {
+    "__comp": "__comp---theme-debug-contentba-8-ce7",
+    "__context": {
+      "plugin": "plugin---bst-docs-docusaurus-debugb-38-7a3"
+    },
+    "__props": "__props---bst-docs-docusaurus-debug-contenta-9-d-23f"
+  },
+  "/BSTDocs/__docusaurus/debug/globalData-c25": {
+    "__comp": "__comp---theme-debug-global-dataede-0fa",
+    "__context": {
+      "plugin": "plugin---bst-docs-docusaurus-debugb-38-7a3"
+    }
+  },
+  "/BSTDocs/__docusaurus/debug/metadata-2be": {
+    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
+    "__context": {
+      "plugin": "plugin---bst-docs-docusaurus-debugb-38-7a3"
+    }
+  },
+  "/BSTDocs/__docusaurus/debug/registry-771": {
+    "__comp": "__comp---theme-debug-registry-679-501",
+    "__context": {
+      "plugin": "plugin---bst-docs-docusaurus-debugb-38-7a3"
+    }
+  },
+  "/BSTDocs/__docusaurus/debug/routes-42f": {
+    "__comp": "__comp---theme-debug-routes-946-699",
+    "__context": {
+      "plugin": "plugin---bst-docs-docusaurus-debugb-38-7a3"
+    }
+  },
+  "/BSTDocs/blog-a1c": {
+    "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
+    "__context": {
+      "plugin": "plugin---bst-docs-blog-369-45e"
+    },
+    "sidebar": "sidebar---bst-docs-blog-814-479",
+    "items": [
+      {
+        "content": "content---bst-docs-blog-766-ff5"
+      },
+      {
+        "content": "content---bst-docs-blogf-4-f-898"
+      },
+      {
+        "content": "content---bst-docs-blog-871-3ba"
+      },
+      {
+        "content": "content---bst-docs-blog-925-f82"
+      }
+    ],
+    "__props": "__props---bst-docs-blogd-11-b9c"
+  },
+  "/BSTDocs/blog/archive-921": {
+    "__comp": "__comp---theme-blog-archive-page-9-e-4-1d8",
+    "__context": {
+      "plugin": "plugin---bst-docs-blog-369-45e"
+    },
+    "__props": "__props---bst-docs-blog-archive-87-b-d67"
+  },
+  "/BSTDocs/blog/authors-14a": {
+    "__comp": "__comp---theme-blog-pages-blog-authors-list-page-621-70c",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---bst-docs-blog-authorsace-401"
+      },
+      "plugin": "plugin---bst-docs-blog-369-45e"
+    },
+    "sidebar": "sidebar---bst-docs-blog-814-479",
+    "__props": "__props---bst-docs-blog-authors-6-c-6-4d1"
+  },
+  "/BSTDocs/blog/authors/all-sebastien-lorber-articles-bfb": {
+    "__comp": "__comp---theme-blog-pages-blog-authors-posts-page-33-f-bd5",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---bst-docs-blog-authorsace-401"
+      },
+      "plugin": "plugin---bst-docs-blog-369-45e"
+    },
+    "items": [
+      {
+        "content": "content---bst-docs-blog-766-ff5"
+      },
+      {
+        "content": "content---bst-docs-blogf-4-f-898"
+      },
+      {
+        "content": "content---bst-docs-blog-925-f82"
+      }
+    ],
+    "sidebar": "sidebar---bst-docs-blog-814-479",
+    "__props": "__props---bst-docs-blog-authors-all-sebastien-lorber-articles-444-410"
+  },
+  "/BSTDocs/blog/authors/yangshun-a03": {
+    "__comp": "__comp---theme-blog-pages-blog-authors-posts-page-33-f-bd5",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---bst-docs-blog-authorsace-401"
+      },
+      "plugin": "plugin---bst-docs-blog-369-45e"
+    },
+    "items": [
+      {
+        "content": "content---bst-docs-blog-766-ff5"
+      },
+      {
+        "content": "content---bst-docs-blog-871-3ba"
+      },
+      {
+        "content": "content---bst-docs-blog-925-f82"
+      }
+    ],
+    "sidebar": "sidebar---bst-docs-blog-814-479",
+    "__props": "__props---bst-docs-blog-authors-yangshun-297-0ef"
+  },
+  "/BSTDocs/blog/first-blog-post-ff7": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---bst-docs-blog-authorsace-401"
+      },
+      "plugin": "plugin---bst-docs-blog-369-45e"
+    },
+    "sidebar": "sidebar---bst-docs-blog-814-479",
+    "content": "content---bst-docs-blog-first-blog-poste-27-24e"
+  },
+  "/BSTDocs/blog/long-blog-post-477": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---bst-docs-blog-authorsace-401"
+      },
+      "plugin": "plugin---bst-docs-blog-369-45e"
+    },
+    "sidebar": "sidebar---bst-docs-blog-814-479",
+    "content": "content---bst-docs-blog-long-blog-post-736-221"
+  },
+  "/BSTDocs/blog/mdx-blog-post-d78": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---bst-docs-blog-authorsace-401"
+      },
+      "plugin": "plugin---bst-docs-blog-369-45e"
+    },
+    "sidebar": "sidebar---bst-docs-blog-814-479",
+    "content": "content---bst-docs-blog-mdx-blog-post-593-c52"
+  },
+  "/BSTDocs/blog/tags-edc": {
+    "__comp": "__comp---theme-blog-tags-list-page-01-a-d0b",
+    "__context": {
+      "plugin": "plugin---bst-docs-blog-369-45e"
+    },
+    "sidebar": "sidebar---bst-docs-blog-814-479",
+    "__props": "__props---bst-docs-blog-tags-7-d-4-29f"
+  },
+  "/BSTDocs/blog/tags/docusaurus-a8b": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---bst-docs-blog-369-45e"
+    },
+    "sidebar": "sidebar---bst-docs-blog-814-479",
+    "items": [
+      {
+        "content": "content---bst-docs-blog-766-ff5"
+      },
+      {
+        "content": "content---bst-docs-blogf-4-f-898"
+      },
+      {
+        "content": "content---bst-docs-blog-871-3ba"
+      },
+      {
+        "content": "content---bst-docs-blog-925-f82"
+      }
+    ],
+    "__props": "__props---bst-docs-blog-tags-docusaurus-2-ff-8e3"
+  },
+  "/BSTDocs/blog/tags/facebook-0a7": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---bst-docs-blog-369-45e"
+    },
+    "sidebar": "sidebar---bst-docs-blog-814-479",
+    "items": [
+      {
+        "content": "content---bst-docs-blog-766-ff5"
+      }
+    ],
+    "__props": "__props---bst-docs-blog-tags-facebook-616-0b5"
+  },
+  "/BSTDocs/blog/tags/hello-55b": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---bst-docs-blog-369-45e"
+    },
+    "sidebar": "sidebar---bst-docs-blog-814-479",
+    "items": [
+      {
+        "content": "content---bst-docs-blog-766-ff5"
+      },
+      {
+        "content": "content---bst-docs-blog-871-3ba"
+      }
+    ],
+    "__props": "__props---bst-docs-blog-tags-hello-149-f25"
+  },
+  "/BSTDocs/blog/tags/hola-633": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---bst-docs-blog-369-45e"
+    },
+    "sidebar": "sidebar---bst-docs-blog-814-479",
+    "items": [
+      {
+        "content": "content---bst-docs-blog-925-f82"
+      }
+    ],
+    "__props": "__props---bst-docs-blog-tags-hola-500-2d9"
+  },
+  "/BSTDocs/blog/welcome-2dc": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---bst-docs-blog-authorsace-401"
+      },
+      "plugin": "plugin---bst-docs-blog-369-45e"
+    },
+    "sidebar": "sidebar---bst-docs-blog-814-479",
+    "content": "content---bst-docs-blog-welcomed-9-f-c5a"
+  },
+  "/BSTDocs/markdown-page-372": {
+    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__context": {
+      "plugin": "plugin---bst-docs-markdown-pagea-74-25e"
+    },
+    "content": "content---bst-docs-markdown-page-393-5c6"
+  },
+  "/BSTDocs/docs-0ac": {
+    "__comp": "__comp---theme-docs-root-5-e-9-0b6",
+    "__context": {
+      "plugin": "plugin---bst-docs-docsaba-551"
+    }
+  },
+  "/BSTDocs/docs-9f0": {
+    "__comp": "__comp---theme-doc-version-roota-7-b-5de",
+    "__props": "__props---bst-docs-docsb-01-39e"
+  },
+  "/BSTDocs/docs/tags-8f4": {
+    "__comp": "__comp---theme-doc-tags-list-page-372-89e",
+    "__props": "__props---bst-docs-docs-tagsd-5-c-fd6"
+  },
+  "/BSTDocs/docs/tags/drayman-47a": {
+    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "__props": "__props---bst-docs-docs-tags-drayman-611-1cf"
+  },
+  "/BSTDocs/docs/tags/guide-7db": {
+    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "__props": "__props---bst-docs-docs-tags-guide-03-b-8f9"
+  },
+  "/BSTDocs/docs/tags/javascript-a2b": {
+    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "__props": "__props---bst-docs-docs-tags-javascriptbe-4-013"
+  },
+  "/BSTDocs/docs/tags/jsx-1c9": {
+    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "__props": "__props---bst-docs-docs-tags-jsx-4-fc-a43"
+  },
+  "/BSTDocs/docs/tags/mongodb-602": {
+    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "__props": "__props---bst-docs-docs-tags-mongodb-38-f-774"
+  },
+  "/BSTDocs/docs/tags/node-81b": {
+    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "__props": "__props---bst-docs-docs-tags-node-099-475"
+  },
+  "/BSTDocs/docs/tags/tailwindcss-98c": {
+    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "__props": "__props---bst-docs-docs-tags-tailwindcss-410-ae9"
+  },
+  "/BSTDocs/docs/tags/typescript-f93": {
+    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "__props": "__props---bst-docs-docs-tags-typescripta-95-faf"
+  },
+  "/BSTDocs/docs-71e": {
+    "__comp": "__comp---theme-doc-roota-94-67a"
+  },
+  "/BSTDocs/docs/-470": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---bst-docs-docs-233-5e0"
+  },
+  "/BSTDocs/docs/blog/building-real-time-todo-app-with-drayman-mongodb-and-tailwind-css-7f6": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---bst-docs-docs-blog-building-real-time-todo-app-with-drayman-mongodb-and-tailwind-cssc-1-d-f8d"
+  },
+  "/BSTDocs/docs/blog/getting-started-with-drayman-4fe": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---bst-docs-docs-blog-getting-started-with-drayman-01-b-230"
+  },
+  "/BSTDocs/docs/category/tutorial---basics-2e7": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---bst-docs-docs-category-tutorial-basics-40-d-5f3"
+  },
+  "/BSTDocs/docs/category/tutorial---extras-1d6": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---bst-docs-docs-category-tutorial-extras-420-1ce"
+  },
+  "/BSTDocs/docs/docs/components-in-depth/component-lifecycle-160": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---bst-docs-docs-docs-components-in-depth-component-lifecyclec-51-9fc"
+  },
+  "/BSTDocs/docs/docs/components-in-depth/default-props-133": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---bst-docs-docs-docs-components-in-depth-default-props-5-bb-e45"
+  },
+  "/BSTDocs/docs/docs/components-in-depth/handling-events-0b2": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---bst-docs-docs-docs-components-in-depth-handling-events-857-279"
+  },
+  "/BSTDocs/docs/docs/components-in-depth/helpers/force-update-6ad": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---bst-docs-docs-docs-components-in-depth-helpers-force-update-801-d98"
+  },
+  "/BSTDocs/docs/docs/components-in-depth/helpers/introduction-27c": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---bst-docs-docs-docs-components-in-depth-helpers-introductionb-63-36d"
+  },
+  "/BSTDocs/docs/docs/components-in-depth/helpers/props-3f6": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---bst-docs-docs-docs-components-in-depth-helpers-propsba-5-7c6"
+  },
+  "/BSTDocs/docs/docs/components-in-depth/helpers/the-component-instance-object-317": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---bst-docs-docs-docs-components-in-depth-helpers-the-component-instance-objecteba-d8f"
+  },
+  "/BSTDocs/docs/docs/components-in-depth/helpers/the-event-hub-object-532": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---bst-docs-docs-docs-components-in-depth-helpers-the-event-hub-object-35-c-327"
+  },
+  "/BSTDocs/docs/docs/interactive-examples/file-viewer-e51": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---bst-docs-docs-docs-interactive-examples-file-viewerd-4-f-f7f"
+  },
+  "/BSTDocs/docs/docs/introduction/configuration-874": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---bst-docs-docs-docs-introduction-configuration-656-4b9"
+  },
+  "/BSTDocs/docs/docs/introduction/getting-started-104": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---bst-docs-docs-docs-introduction-getting-started-6-ae-5de"
+  },
+  "/BSTDocs/docs/docs/introduction/server-and-client-combined-e56": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---bst-docs-docs-docs-introduction-server-and-client-combined-8-fe-741"
+  },
+  "/BSTDocs/docs/docs/postcss-and-tailwind-css-9cd": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---bst-docs-docs-docs-postcss-and-tailwind-cssd-80-83f"
+  },
+  "/BSTDocs/docs/docs/web-components/drayman-elements-2f5": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---bst-docs-docs-docs-web-components-drayman-elements-1-cd-985"
+  },
+  "/BSTDocs/docs/intro-78a": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---bst-docs-docs-intro-0-e-3-b7f"
+  },
+  "/BSTDocs/docs/src/pages/markdown-page-f5e": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---bst-docs-docs-src-pages-markdown-paged-4-c-e8a"
+  },
+  "/BSTDocs/docs/tutorial-basics/congratulations-421": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---bst-docs-docs-tutorial-basics-congratulations-822-9fc"
+  },
+  "/BSTDocs/docs/tutorial-basics/create-a-blog-post-64e": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---bst-docs-docs-tutorial-basics-create-a-blog-post-533-42d"
+  },
+  "/BSTDocs/docs/tutorial-basics/create-a-document-b34": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---bst-docs-docs-tutorial-basics-create-a-document-1-e-4-083"
+  },
+  "/BSTDocs/docs/tutorial-basics/create-a-page-fe5": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---bst-docs-docs-tutorial-basics-create-a-page-5-c-8-b8e"
+  },
+  "/BSTDocs/docs/tutorial-basics/deploy-your-site-ba5": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---bst-docs-docs-tutorial-basics-deploy-your-sitef-55-9b3"
+  },
+  "/BSTDocs/docs/tutorial-basics/markdown-features-5b4": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---bst-docs-docs-tutorial-basics-markdown-features-18-c-28d"
+  },
+  "/BSTDocs/docs/tutorial-extras/manage-docs-versions-acd": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---bst-docs-docs-tutorial-extras-manage-docs-versionsdff-030"
+  },
+  "/BSTDocs/docs/tutorial-extras/translate-your-site-fe0": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---bst-docs-docs-tutorial-extras-translate-your-sitee-44-c63"
+  },
+  "/BSTDocs/-3ce": {
+    "__comp": "__comp---site-src-pages-index-jsc-4-f-f99",
+    "__context": {
+      "plugin": "plugin---bst-docs-markdown-pagea-74-25e"
+    },
+    "config": "config---bst-docs-5-e-9-bd7"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "tutorial-extras/search",
+  "title": "Enabling Search",
+  "description": "Docusaurus supports search using Algolia DocSearch. Once your website is online, you can submit it to DocSearch. Algolia will then send you credentials you can add to your siteConfig.js.",
+  "source": "@site/docs/tutorial-extras/guides-search.md",
+  "sourceDirName": "tutorial-extras",
+  "slug": "/tutorial-extras/search",
+  "permalink": "/BSTDocs/docs/tutorial-extras/search",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-extras/guides-search.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "search",
+    "title": "Enabling Search"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Navigation and Sidebars",
+    "permalink": "/BSTDocs/docs/tutorial-extras/navigation"
+  },
+  "next": {
+    "title": "Translations & Localization",
+    "permalink": "/BSTDocs/docs/tutorial-extras/translation"
+  }
+}

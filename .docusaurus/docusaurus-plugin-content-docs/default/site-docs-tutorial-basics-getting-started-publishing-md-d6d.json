@@ -1,0 +1,27 @@
+{
+  "id": "tutorial-basics/publishing",
+  "title": "Publishing your site",
+  "description": "You should now have a site up and running locally. Once you have customized it to your liking, it's time to publish it. Docusaurus generates a static HTML website that is ready to be served by your favorite web server or online hosting solution.",
+  "source": "@site/docs/tutorial-basics/getting-started-publishing.md",
+  "sourceDirName": "tutorial-basics",
+  "slug": "/tutorial-basics/publishing",
+  "permalink": "/BSTDocs/docs/tutorial-basics/publishing",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-basics/getting-started-publishing.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "publishing",
+    "title": "Publishing your site"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Site Preparation",
+    "permalink": "/BSTDocs/docs/tutorial-basics/site-preparation"
+  },
+  "next": {
+    "title": "Creating your site",
+    "permalink": "/BSTDocs/docs/tutorial-basics/site-creation"
+  }
+}

@@ -1,0 +1,14 @@
+.red-box {
+    background-color: rgb(255, 0, 0);
+    width: 100px;
+    height: 100px;
+}
+
+.modal {
+  display: none;
+  border: 1px solid black;
+}
+
+.modal.is-open {
+  display: block;
+}

@@ -1,0 +1,28 @@
+{
+  "id": "docs/postcss-and-tailwind-css",
+  "title": "PostCSS and Tailwind CSS",
+  "description": "If there is a PostCSS config somewhere (found by postcss-load-config), Drayman will automatically set it up.",
+  "source": "@site/docs/docs/postcss-and-tailwind-css.mdx",
+  "sourceDirName": "docs",
+  "slug": "/docs/postcss-and-tailwind-css",
+  "permalink": "/BSTDocs/docs/docs/postcss-and-tailwind-css",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/docs/postcss-and-tailwind-css.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "title": "PostCSS and Tailwind CSS",
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "@drayman/elements",
+    "permalink": "/BSTDocs/docs/docs/web-components/drayman-elements"
+  },
+  "next": {
+    "title": "File viewer",
+    "permalink": "/BSTDocs/docs/docs/interactive-examples/file-viewer"
+  }
+}

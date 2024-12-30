@@ -1,0 +1,605 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`bindings are working 1`] = `
+Object {
+  "events": Object {},
+  "tree": Array [
+    Object {
+      "children": Array [
+        Object {
+          "children": Array [
+            Object {
+              "children": Array [],
+              "key": "/0/div/0/div/0/text",
+              "text": "Hello, world!",
+            },
+          ],
+          "data": Object {},
+          "key": "/0/div/0/div",
+          "sel": "div",
+        },
+      ],
+      "data": Object {},
+      "key": "/0/div",
+      "sel": "div",
+    },
+  ],
+}
+`;
+
+exports[`custom CSS properties are allowed 1`] = `
+Object {
+  "events": Object {},
+  "tree": Array [
+    Object {
+      "children": Array [
+        Object {
+          "children": Array [],
+          "key": "/0/div/0/text",
+          "text": "Hello, world!",
+        },
+      ],
+      "data": Object {
+        "style": Object {
+          "--theme-color": "black",
+        },
+      },
+      "key": "/0/div",
+      "sel": "div",
+    },
+  ],
+}
+`;
+
+exports[`expression as children 2 1`] = `
+Object {
+  "events": Object {},
+  "tree": Array [
+    Object {
+      "children": Array [
+        Object {
+          "children": Array [
+            Object {
+              "children": Array [],
+              "key": "/0/div/0/p/0/text",
+              "text": "This is item 0 in the list",
+            },
+          ],
+          "data": Object {},
+          "key": "/0/div/0/p",
+          "sel": "p",
+        },
+        Object {
+          "children": Array [
+            Object {
+              "children": Array [],
+              "key": "/0/div/1/p/0/text",
+              "text": "This is item 1 in the list",
+            },
+          ],
+          "data": Object {},
+          "key": "/0/div/1/p",
+          "sel": "p",
+        },
+        Object {
+          "children": Array [
+            Object {
+              "children": Array [],
+              "key": "/0/div/2/p/0/text",
+              "text": "This is item 2 in the list",
+            },
+          ],
+          "data": Object {},
+          "key": "/0/div/2/p",
+          "sel": "p",
+        },
+      ],
+      "data": Object {},
+      "key": "/0/div",
+      "sel": "div",
+    },
+  ],
+}
+`;
+
+exports[`function as children 1`] = `
+Object {
+  "events": Object {},
+  "tree": Array [
+    Object {
+      "children": Array [
+        Object {
+          "children": Array [
+            Object {
+              "children": Array [],
+              "key": "/0/div/0/p/0/text",
+              "text": "This is item 0 in the list",
+            },
+          ],
+          "data": Object {},
+          "key": "/0/div/0/p",
+          "sel": "p",
+        },
+        Object {
+          "children": Array [
+            Object {
+              "children": Array [],
+              "key": "/0/div/1/p/0/text",
+              "text": "This is item 1 in the list",
+            },
+          ],
+          "data": Object {},
+          "key": "/0/div/1/p",
+          "sel": "p",
+        },
+        Object {
+          "children": Array [
+            Object {
+              "children": Array [],
+              "key": "/0/div/2/p/0/text",
+              "text": "This is item 2 in the list",
+            },
+          ],
+          "data": Object {},
+          "key": "/0/div/2/p",
+          "sel": "p",
+        },
+      ],
+      "data": Object {},
+      "key": "/0/div",
+      "sel": "div",
+    },
+  ],
+}
+`;
+
+exports[`ignores empty elements 1`] = `
+Object {
+  "events": Object {},
+  "tree": Array [
+    Object {
+      "children": Array [
+        Object {
+          "children": Array [
+            Object {
+              "children": Array [],
+              "key": "/0/div/0/h1/0/text",
+              "text": "Hello, world!",
+            },
+          ],
+          "data": Object {},
+          "key": "/0/div/0/h1",
+          "sel": "h1",
+        },
+      ],
+      "data": Object {},
+      "key": "/0/div",
+      "sel": "div",
+    },
+  ],
+}
+`;
+
+exports[`renders components with childRenderer 1`] = `
+Object {
+  "events": Object {},
+  "tree": Array [
+    Object {
+      "children": Array [
+        Object {
+          "children": Array [
+            Object {
+              "children": Array [],
+              "key": "/0/div/0/h3/0/text",
+              "text": "Hello, world!",
+            },
+          ],
+          "data": Object {},
+          "key": "/0/div/0/h3",
+          "sel": "h3",
+        },
+        Object {
+          "children": Array [],
+          "data": Object {
+            "props": Object {
+              "message": "Hello, world!",
+            },
+          },
+          "key": "/0/div/1/not-child",
+          "sel": "not-child",
+        },
+      ],
+      "data": Object {},
+      "key": "/0/div",
+      "sel": "div",
+    },
+    Object {
+      "children": Array [
+        Object {
+          "children": Array [],
+          "key": "/1/h3/0/text",
+          "text": "Hello, orphan!",
+        },
+      ],
+      "data": Object {},
+      "key": "/1/h3",
+      "sel": "h3",
+    },
+    Object {
+      "children": Array [
+        Object {
+          "children": Array [],
+          "key": "/2/h3/0/text",
+          "text": "Hello, func orphan!",
+        },
+      ],
+      "data": Object {},
+      "key": "/2/h3",
+      "sel": "h3",
+    },
+    Object {
+      "children": Array [
+        Object {
+          "children": Array [],
+          "key": "/3/h6/0/text",
+          "text": "Hello, other child!",
+        },
+      ],
+      "data": Object {},
+      "key": "/3/h6",
+      "sel": "h6",
+    },
+  ],
+}
+`;
+
+exports[`renders components with childRenderer and custom key 1`] = `
+Object {
+  "events": Object {},
+  "tree": Array [
+    Object {
+      "children": Array [
+        Object {
+          "children": Array [],
+          "key": "/0/h3/0/text",
+          "text": "1",
+        },
+      ],
+      "data": Object {},
+      "key": "/0/h3",
+      "sel": "h3",
+    },
+    Object {
+      "children": Array [
+        Object {
+          "children": Array [],
+          "key": "/1/h3/0/text",
+          "text": "2",
+        },
+      ],
+      "data": Object {},
+      "key": "/1/h3",
+      "sel": "h3",
+    },
+    Object {
+      "children": Array [
+        Object {
+          "children": Array [],
+          "key": "/2/h3/0/text",
+          "text": "3",
+        },
+      ],
+      "data": Object {},
+      "key": "/2/h3",
+      "sel": "h3",
+    },
+  ],
+}
+`;
+
+exports[`renders elements mixed with text 1`] = `
+Object {
+  "events": Object {},
+  "tree": Array [
+    Object {
+      "children": Array [
+        Object {
+          "children": Array [],
+          "key": "/0/div/0/text",
+          "text": "Hello,",
+        },
+        Object {
+          "children": Array [
+            Object {
+              "children": Array [],
+              "key": "/0/div/1/button/0/text",
+              "text": "world",
+            },
+          ],
+          "data": Object {},
+          "key": "/0/div/1/button",
+          "sel": "button",
+        },
+        Object {
+          "children": Array [],
+          "key": "/0/div/2/text",
+          "text": "!",
+        },
+      ],
+      "data": Object {},
+      "key": "/0/div",
+      "sel": "div",
+    },
+  ],
+}
+`;
+
+exports[`renders fragments as nested array of elements 1`] = `
+Object {
+  "events": Object {},
+  "tree": Array [
+    Object {
+      "children": Array [
+        Object {
+          "children": Array [],
+          "key": "/0/h1/0/text",
+          "text": "Hello, world!",
+        },
+      ],
+      "data": Object {},
+      "key": "/0/h1",
+      "sel": "h1",
+    },
+    Object {
+      "children": Array [
+        Object {
+          "children": Array [],
+          "key": "/1/h1/0/text",
+          "text": "Hello, world!",
+        },
+      ],
+      "data": Object {},
+      "key": "/1/h1",
+      "sel": "h1",
+    },
+  ],
+}
+`;
+
+exports[`renders nested array of elements 1`] = `
+Object {
+  "events": Object {},
+  "tree": Array [
+    Object {
+      "children": Array [
+        Object {
+          "children": Array [],
+          "key": "/0/h1/0/text",
+          "text": "Hello, world!",
+        },
+      ],
+      "data": Object {},
+      "key": "/0/h1",
+      "sel": "h1",
+    },
+    Object {
+      "children": Array [
+        Object {
+          "children": Array [],
+          "key": "/1/h1/0/text",
+          "text": "Hello, world!",
+        },
+      ],
+      "data": Object {},
+      "key": "/1/h1",
+      "sel": "h1",
+    },
+  ],
+}
+`;
+
+exports[`renders nested elements 1`] = `
+Object {
+  "events": Object {},
+  "tree": Array [
+    Object {
+      "children": Array [
+        Object {
+          "children": Array [
+            Object {
+              "children": Array [],
+              "key": "/0/div/0/button/0/text",
+              "text": "Red button",
+            },
+          ],
+          "data": Object {
+            "style": Object {
+              "color": "red",
+            },
+          },
+          "key": "/0/div/0/button",
+          "sel": "button",
+        },
+        Object {
+          "children": Array [
+            Object {
+              "children": Array [],
+              "key": "/0/div/1/button/0/text",
+              "text": "Blue button",
+            },
+          ],
+          "data": Object {
+            "style": Object {
+              "color": "blue",
+            },
+          },
+          "key": "/0/div/1/button",
+          "sel": "button",
+        },
+      ],
+      "data": Object {},
+      "key": "/0/div",
+      "sel": "div",
+    },
+  ],
+}
+`;
+
+exports[`renders single element 1`] = `
+Object {
+  "events": Object {},
+  "tree": Array [
+    Object {
+      "children": Array [
+        Object {
+          "children": Array [],
+          "key": "/0/button/0/text",
+          "text": "Click me!",
+        },
+      ],
+      "data": Object {
+        "style": Object {
+          "color": "red",
+        },
+      },
+      "key": "/0/button",
+      "sel": "button",
+    },
+  ],
+}
+`;
+
+exports[`renders styles appending 'px' to number values where possible 1`] = `
+Object {
+  "events": Object {},
+  "tree": Array [
+    Object {
+      "children": Array [
+        Object {
+          "children": Array [],
+          "key": "/0/div/0/text",
+          "text": "Hello, world!",
+        },
+      ],
+      "data": Object {
+        "style": Object {
+          "flex": 1,
+          "height": "50px",
+          "width": "100px",
+        },
+      },
+      "key": "/0/div",
+      "sel": "div",
+    },
+  ],
+}
+`;
+
+exports[`returns options for events 1`] = `
+Object {
+  "events": Object {
+    "/0/input/input": [Function],
+  },
+  "tree": Array [
+    Object {
+      "children": Array [],
+      "data": Object {
+        "attrs": Object {
+          "type": "text",
+        },
+        "on": Object {
+          "input": Object {
+            "debounce": 500,
+          },
+        },
+        "props": Object {
+          "type": "text",
+        },
+      },
+      "key": "/0/input",
+      "sel": "input",
+    },
+  ],
+}
+`;
+
+exports[`sets SVG attributes 1`] = `
+Object {
+  "events": Object {},
+  "tree": Array [
+    Object {
+      "children": Array [
+        Object {
+          "children": Array [],
+          "data": Object {
+            "attrs": Object {
+              "cx": "50",
+              "cy": "50",
+              "fill": "yellow",
+              "r": "20",
+              "stroke": "green",
+              "stroke-width": "4",
+            },
+          },
+          "key": "/0/svg/0/circle",
+          "sel": "circle",
+        },
+      ],
+      "data": Object {
+        "attrs": Object {
+          "height": "100",
+          "width": "100",
+        },
+      },
+      "key": "/0/svg",
+      "sel": "svg",
+    },
+  ],
+}
+`;
+
+exports[`stores events correctly 1`] = `
+Object {
+  "events": Object {
+    "/0/input/input": [Function],
+  },
+  "tree": Array [
+    Object {
+      "children": Array [],
+      "data": Object {
+        "attrs": Object {
+          "type": "text",
+        },
+        "on": Object {
+          "input": true,
+        },
+        "props": Object {
+          "type": "text",
+        },
+      },
+      "key": "/0/input",
+      "sel": "input",
+    },
+  ],
+}
+`;
+
+exports[`stores events for custom elements correctly 1`] = `
+Object {
+  "events": Object {
+    "/0/custom-element/onInput": [Function],
+  },
+  "tree": Array [
+    Object {
+      "children": Array [],
+      "data": Object {
+        "props": Object {
+          "onInput": true,
+        },
+      },
+      "key": "/0/custom-element",
+      "sel": "custom-element",
+    },
+  ],
+}
+`;

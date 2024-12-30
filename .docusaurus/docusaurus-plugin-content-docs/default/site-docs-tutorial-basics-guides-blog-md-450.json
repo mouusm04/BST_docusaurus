@@ -1,0 +1,27 @@
+{
+  "id": "tutorial-basics/adding-blog",
+  "title": "Adding a Blog",
+  "description": "Initial Setup",
+  "source": "@site/docs/tutorial-basics/guides-blog.md",
+  "sourceDirName": "tutorial-basics",
+  "slug": "/tutorial-basics/adding-blog",
+  "permalink": "/BSTDocs/docs/tutorial-basics/adding-blog",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-basics/guides-blog.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "adding-blog",
+    "title": "Adding a Blog"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Creating your site",
+    "permalink": "/BSTDocs/docs/tutorial-basics/site-creation"
+  },
+  "next": {
+    "title": "Tutorial - Extras",
+    "permalink": "/BSTDocs/docs/category/tutorial---extras"
+  }
+}

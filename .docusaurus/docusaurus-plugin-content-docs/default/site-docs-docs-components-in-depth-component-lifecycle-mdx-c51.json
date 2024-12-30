@@ -1,0 +1,28 @@
+{
+  "id": "docs/components-in-depth/component-lifecycle",
+  "title": "Component lifecycle",
+  "description": "To see how component is handled by Drayman, let's take for example, a component which reads data from selected file and shows it to user:",
+  "source": "@site/docs/docs/components-in-depth/component-lifecycle.mdx",
+  "sourceDirName": "docs/components-in-depth",
+  "slug": "/docs/components-in-depth/component-lifecycle",
+  "permalink": "/BSTDocs/docs/docs/components-in-depth/component-lifecycle",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/docs/components-in-depth/component-lifecycle.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "Component lifecycle",
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Configuration",
+    "permalink": "/BSTDocs/docs/docs/introduction/configuration"
+  },
+  "next": {
+    "title": "Default props",
+    "permalink": "/BSTDocs/docs/docs/components-in-depth/default-props"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "tutorial-basics/site-creation",
+  "title": "Creating your site",
+  "description": "Docusaurus was created to hopefully make it super simple for you to create a site and documentation for your open source project.",
+  "source": "@site/docs/tutorial-basics/getting-started-site-creation.md",
+  "sourceDirName": "tutorial-basics",
+  "slug": "/tutorial-basics/site-creation",
+  "permalink": "/BSTDocs/docs/tutorial-basics/site-creation",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-basics/getting-started-site-creation.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "site-creation",
+    "title": "Creating your site"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Publishing your site",
+    "permalink": "/BSTDocs/docs/tutorial-basics/publishing"
+  },
+  "next": {
+    "title": "Adding a Blog",
+    "permalink": "/BSTDocs/docs/tutorial-basics/adding-blog"
+  }
+}

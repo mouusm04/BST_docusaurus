@@ -1,0 +1,69 @@
+{
+  "id": "blog/2021-08-17-getting-started-with-drayman",
+  "title": "Getting started with Drayman",
+  "description": "Drayman is a server-side component framework that allows you to use any available HTML element, web component or custom Drayman third-party component together with server-side code in a single script.",
+  "source": "@site/docs/blog/2021-08-17-getting-started-with-drayman.mdx",
+  "sourceDirName": "blog",
+  "slug": "/blog/getting-started-with-drayman",
+  "permalink": "/BSTDocs/docs/blog/getting-started-with-drayman",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/blog/2021-08-17-getting-started-with-drayman.mdx",
+  "tags": [
+    {
+      "inline": true,
+      "label": "drayman",
+      "permalink": "/BSTDocs/docs/tags/drayman"
+    },
+    {
+      "inline": true,
+      "label": "node",
+      "permalink": "/BSTDocs/docs/tags/node"
+    },
+    {
+      "inline": true,
+      "label": "typescript",
+      "permalink": "/BSTDocs/docs/tags/typescript"
+    },
+    {
+      "inline": true,
+      "label": "javascript",
+      "permalink": "/BSTDocs/docs/tags/javascript"
+    },
+    {
+      "inline": true,
+      "label": "jsx",
+      "permalink": "/BSTDocs/docs/tags/jsx"
+    },
+    {
+      "inline": true,
+      "label": "guide",
+      "permalink": "/BSTDocs/docs/tags/guide"
+    }
+  ],
+  "version": "current",
+  "frontMatter": {
+    "slug": "getting-started-with-drayman",
+    "title": "Getting started with Drayman",
+    "author": "Yan Ivan Evdokimov",
+    "author_url": "https://github.com/jansivans",
+    "author_image_url": "https://avatars.githubusercontent.com/u/5667073?v=4",
+    "tags": [
+      "drayman",
+      "node",
+      "typescript",
+      "javascript",
+      "jsx",
+      "guide"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Website",
+    "permalink": "/BSTDocs/docs/"
+  },
+  "next": {
+    "title": "Building a real-time Todo app with Drayman, MongoDB and Tailwind CSS",
+    "permalink": "/BSTDocs/docs/blog/building-real-time-todo-app-with-drayman-mongodb-and-tailwind-css"
+  }
+}

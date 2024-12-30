@@ -1,0 +1,173 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/BSTDocs/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/BSTDocs/docs",
+          "mainDocId": "README",
+          "docs": [
+            {
+              "id": "blog/2021-08-17-getting-started-with-drayman",
+              "path": "/BSTDocs/docs/blog/getting-started-with-drayman",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "blog/2021-08-30-building-real-time-todo-app-with-drayman-mongodb-and-tailwind-css",
+              "path": "/BSTDocs/docs/blog/building-real-time-todo-app-with-drayman-mongodb-and-tailwind-css",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "docs/components-in-depth/component-lifecycle",
+              "path": "/BSTDocs/docs/docs/components-in-depth/component-lifecycle",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "docs/components-in-depth/default-props",
+              "path": "/BSTDocs/docs/docs/components-in-depth/default-props",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "docs/components-in-depth/handling-events",
+              "path": "/BSTDocs/docs/docs/components-in-depth/handling-events",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "docs/components-in-depth/helpers/force-update",
+              "path": "/BSTDocs/docs/docs/components-in-depth/helpers/force-update",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "docs/components-in-depth/helpers/introduction",
+              "path": "/BSTDocs/docs/docs/components-in-depth/helpers/introduction",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "docs/components-in-depth/helpers/props",
+              "path": "/BSTDocs/docs/docs/components-in-depth/helpers/props",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "docs/components-in-depth/helpers/the-component-instance-object",
+              "path": "/BSTDocs/docs/docs/components-in-depth/helpers/the-component-instance-object",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "docs/components-in-depth/helpers/the-event-hub-object",
+              "path": "/BSTDocs/docs/docs/components-in-depth/helpers/the-event-hub-object",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "docs/interactive-examples/file-viewer",
+              "path": "/BSTDocs/docs/docs/interactive-examples/file-viewer",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "docs/introduction/configuration",
+              "path": "/BSTDocs/docs/docs/introduction/configuration",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "docs/introduction/getting-started",
+              "path": "/BSTDocs/docs/docs/introduction/getting-started",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "docs/introduction/server-and-client-combined",
+              "path": "/BSTDocs/docs/docs/introduction/server-and-client-combined",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "docs/postcss-and-tailwind-css",
+              "path": "/BSTDocs/docs/docs/postcss-and-tailwind-css",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "docs/web-components/drayman-elements",
+              "path": "/BSTDocs/docs/docs/web-components/drayman-elements",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "intro",
+              "path": "/BSTDocs/docs/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "README",
+              "path": "/BSTDocs/docs/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "src/pages/markdown-page",
+              "path": "/BSTDocs/docs/src/pages/markdown-page",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial-basics/congratulations",
+              "path": "/BSTDocs/docs/tutorial-basics/congratulations",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial-basics/create-a-blog-post",
+              "path": "/BSTDocs/docs/tutorial-basics/create-a-blog-post",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial-basics/create-a-document",
+              "path": "/BSTDocs/docs/tutorial-basics/create-a-document",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial-basics/create-a-page",
+              "path": "/BSTDocs/docs/tutorial-basics/create-a-page",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial-basics/deploy-your-site",
+              "path": "/BSTDocs/docs/tutorial-basics/deploy-your-site",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial-basics/markdown-features",
+              "path": "/BSTDocs/docs/tutorial-basics/markdown-features",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial-extras/manage-docs-versions",
+              "path": "/BSTDocs/docs/tutorial-extras/manage-docs-versions",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial-extras/translate-your-site",
+              "path": "/BSTDocs/docs/tutorial-extras/translate-your-site",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/tutorial---basics",
+              "path": "/BSTDocs/docs/category/tutorial---basics",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/tutorial---extras",
+              "path": "/BSTDocs/docs/category/tutorial---extras",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/BSTDocs/docs/intro",
+                "label": "intro"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

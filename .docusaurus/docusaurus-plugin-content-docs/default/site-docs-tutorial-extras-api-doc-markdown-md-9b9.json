@@ -1,0 +1,27 @@
+{
+  "id": "tutorial-extras/doc-markdown",
+  "title": "Markdown Features",
+  "description": "Docusaurus uses GitHub Flavored Markdown (GFM). Find out more about Docusaurus-specific fields when writing Markdown.",
+  "source": "@site/docs/tutorial-extras/api-doc-markdown.md",
+  "sourceDirName": "tutorial-extras",
+  "slug": "/tutorial-extras/doc-markdown",
+  "permalink": "/BSTDocs/docs/tutorial-extras/doc-markdown",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-extras/api-doc-markdown.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "doc-markdown",
+    "title": "Markdown Features"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Translate your site",
+    "permalink": "/BSTDocs/docs/tutorial-extras/translate-your-site"
+  },
+  "next": {
+    "title": "Pages and Styles",
+    "permalink": "/BSTDocs/docs/tutorial-extras/api-pages"
+  }
+}

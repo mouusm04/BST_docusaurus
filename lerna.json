@@ -1,0 +1,8 @@
+{
+  "packages": [
+    "packages/*",
+    "packages/framework/client",
+    "packages/framework-init/template"
+  ],
+  "version": "2.10.1"
+}

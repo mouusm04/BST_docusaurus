@@ -1,0 +1,27 @@
+{
+  "id": "tutorial-extras/api-pages",
+  "title": "Pages and Styles",
+  "description": "Docusaurus provides support for writing pages as React components inside the website/pages directory which will share the same header, footer, and styles as the rest of the site.",
+  "source": "@site/docs/tutorial-extras/api-pages.md",
+  "sourceDirName": "tutorial-extras",
+  "slug": "/tutorial-extras/api-pages",
+  "permalink": "/BSTDocs/docs/tutorial-extras/api-pages",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-extras/api-pages.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "api-pages",
+    "title": "Pages and Styles"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Markdown Features",
+    "permalink": "/BSTDocs/docs/tutorial-extras/doc-markdown"
+  },
+  "next": {
+    "title": "Custom Pages",
+    "permalink": "/BSTDocs/docs/tutorial-extras/custom-pages"
+  }
+}

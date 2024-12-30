@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+        "target": "ESNext",
+        "module": "commonjs",
+        "esModuleInterop": true,
+        "resolveJsonModule": true,
+        "stripInternal": true,
+        "jsx": "react-jsx",
+        "jsxImportSource": "@drayman/core",
+        "typeRoots": [
+            "../../node_modules/@types"
+        ],
+        "types": [
+            "@types/node",
+            "@types/jest",
+            "@drayman/types",
+            "../jsx-runtime"
+        ]
+    },
+    "include": [
+        "./",
+        "../../src"
+    ]
+}

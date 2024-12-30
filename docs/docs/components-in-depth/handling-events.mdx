@@ -1,0 +1,309 @@
+---
+title: Handling events
+sidebar_position: 3
+---
+
+Each element attribute which starts with an `on` prefix is considered by Drayman as an event. All events are fired in browser and then executed server-side (if you want to execute something insde browser, you can use [Browser object](./helpers/the-browser-object)).
+
+There are, however, situations where executing all events on the server can be a performance issue. For example, if you are listening for keyboard shortcuts, it would be wasteful to send every single key press to the server. In this case, you can use [eventGuards](#eventguards) to prevent event from being executed on the server.
+
+## Basic event usage
+
+You can use any known [HTML element event](https://html.spec.whatwg.org/multipage/indices.html#attributes-3) when developing Drayman components. Simply add required event as an attribute and assign an `async` function which will be executed when event is fired:
+
+```tsx title="src/components/home.tsx"
+export const component: DraymanComponent = async ({ forceUpdate }) => {
+  let text: string;
+
+  return () => {
+    return (
+      <>
+        <input
+          //highlight-start
+          oninput={async ({ value }) => {
+            text = value;
+            await forceUpdate();
+          }}
+          //highlight-end
+        />
+        <h3>{text}</h3>
+      </>
+    );
+  };
+};
+```
+
+Some events provide useful data when it is fired. In example above, `oninput` event provides a `value` which is a user-typed text. You can find full list of emitted data below.
+
+### Generic data
+
+All [configured events](#configuring-events) emit this data in addition to event-specific data:
+
+```text
+trailing, leading
+```
+
+### Data for keyboard events
+
+```text
+altKey, shiftKey, ctrlKey, metaKey, code, key, location, repeat
+```
+
+### Data for mouse events
+
+```text
+altKey, shiftKey, ctrlKey, metaKey, x, y, pageX, pageY, screenX, screenY, offsetX, offsetY
+```
+
+### Data for `oninput`, `onchange` events
+
+```text
+value
+```
+
+### Data for third-party Drayman component elements
+
+Please refer to specific third-party element documentation to check which data is emitted.
+
+## Handling file upload events
+
+In addition to data object all events emit files array. This array can be used to check uploaded file info and save it to file system. It is usually used within `<input type="file" />` element.
+
+Let's for example create a component which displays directory contents and saves files to it. Before adding this component, create an `uploaded` directory in the root of your project.
+
+```tsx title="src/components/home.tsx"
+import fs from "fs/promises";
+
+export const component: DraymanComponent = async ({ forceUpdate }) => {
+  const uploadedDir = "./uploaded";
+
+  return async () => {
+    return (
+      <>
+        <input
+          multiple
+          type="file"
+          oninput={async ({}, files) => {
+            for (const file of files) {
+              await fs.writeFile(
+                `${uploadedDir}/${file.originalname}`,
+                file.buffer
+              );
+            }
+            await forceUpdate();
+          }}
+        />
+        <pre>{(await fs.readdir(uploadedDir)).join("\n")}</pre>
+      </>
+    );
+  };
+};
+```
+
+Notice how `oninput` event of `input` element accepts `files` as a second parameter of event function. It is an array which is used to save files to file system using `writeFile`.
+
+## Handling event cancellation
+
+In Drayman, an event can be cancelled if the request is interrupted, either by the user's browser action or when a request timeout is reached.
+
+To handle such cancellations, each event in Drayman emits an `AbortSignal` object as part of the event's parameters. This object can be used to monitor and respond to a cancellation request. Here is an example of how you can implement cancellation handling in a Drayman component:
+
+```tsx title="src/components/home.tsx"
+export const component: DraymanComponent = async ({ ComponentInstance }) => {
+  function delay(time) {
+    return new Promise((resolve) => setTimeout(resolve, time));
+  }
+
+  return () => {
+    return (
+      <button
+        onClick={async ({}, files, signal) => {
+          for (let i = 0; i < 1000; i++) {
+            console.log(i);
+            await delay(1000);
+            if (signal.aborted) {
+              break;
+            }
+          }
+        }}
+      >
+        Start timer
+      </button>
+    );
+  };
+};
+```
+
+In this example, we have a button that starts a timer when clicked. The timer runs a loop that increments a counter every second. However, if the `signal.aborted` flag is set to `true` (which happens when the event is cancelled), the loop breaks, effectively stopping the timer. This could be due to a user action, like closing the browser tab, or a timeout set on the server side. The use of `AbortSignal` provides a clean and efficient way to handle such scenarios in your Drayman applications.
+
+## Configuring events
+
+In addition to function which will be executed on event, you can pass some configuration. Lets modify our previous example a bit:
+
+```tsx title="src/components/home.tsx"
+export const component: DraymanComponent = async ({ forceUpdate }) => {
+  let text: string;
+
+  return () => {
+    return (
+      <>
+        <input
+          //highlight-start
+          oninput={[
+            async ({ value, trailing }) => {
+              text = value;
+              await forceUpdate();
+            },
+            { debounce: { wait: 500, trailing: true } },
+          ]}
+          //highlight-end
+        />
+        <h3>{text}</h3>
+      </>
+    );
+  };
+};
+```
+
+Now we pass an array to `oninput` event. First element of this array is a function which needs to be executed on event. Second element - event configuration. In our case we tell to debounce our event for 500ms and execute a function on a trailing edge. In addition to `value` data, our event also receives `trailing` indicator, which will be `true` because function was executed on a trailing edge.
+
+You can use a shorthand for this configuration:
+
+```tsx title="src/components/home.tsx"
+export const component: DraymanComponent = async ({ forceUpdate }) => {
+  let text: string;
+
+  return () => {
+    return (
+      <>
+        <input
+          oninput={[
+            async ({ value, trailing }) => {
+              text = value;
+              await forceUpdate();
+            },
+            //highlight-next-line
+            { debounce: 500 },
+          ]}
+        />
+        <h3>{text}</h3>
+      </>
+    );
+  };
+};
+```
+
+It is also possible to configure element events globally using [elementOptions](../introduction/configuration#elementoptions)
+
+### Event configuration options
+
+### `debounce`
+
+Delays invoking event until `wait` milliseconds have elapsed since the last time the debounced event was invoked.
+
+`debounce` accepts `number` (ms to delay) or an object with options:
+
+#### `wait`
+
+Number of ms to delay.
+
+#### `trailing`
+
+If `true`, invokes event on the trailing edge.
+
+#### `leading`
+
+If `true`, invokes event on the leading edge.
+
+```tsx title="src/components/home.tsx"
+export const component: DraymanComponent = async ({ forceUpdate }) => {
+  let text: string;
+
+  return () => {
+    return (
+      <>
+        <h3>{text}</h3>
+        <p>Debounce with ms</p>
+        <input
+          value={text}
+          oninput={[
+            async ({ value }) => {
+              text = value;
+              await forceUpdate();
+            },
+            { debounce: 500 },
+          ]}
+        />
+        <p>Debounce on trailing edge</p>
+        <input
+          value={text}
+          oninput={[
+            async ({ value }) => {
+              text = value;
+              await forceUpdate();
+            },
+            { debounce: { wait: 500, trailing: true } },
+          ]}
+        />
+        <p>Debounce on leading edge</p>
+        <input
+          value={text}
+          oninput={[
+            async ({ value }) => {
+              text = value;
+              await forceUpdate();
+            },
+            { debounce: { wait: 500, leading: true } },
+          ]}
+        />
+      </>
+    );
+  };
+};
+```
+
+### `eventGuards`
+
+Drayman executes event code in server side, and if your component is listening for events such as keyboard shortcuts, it would be bad for performance if every event is sent to the server. This is where event guards come in handy. If a guard condition is not met, Drayman will not send anything to the server, saving you unnecessary requests.
+
+For example, let's say you have a component that listens for a keyboard shortcut to trigger a certain action. You can use an event guard to ensure that the action is only triggered when the specific key combination is pressed. If the guard condition is not met, nothing happens and no request is sent to the server. Here's an example of how to define an event guard for a keyboard event:
+
+```tsx title="src/components/eventGuards.tsx"
+export const component: DraymanComponent = async ({ forceUpdate }) => {
+  let text = "Hello";
+
+  return () => {
+    return (
+      <>
+        <input
+          type="text"
+          value={text}
+          onkeydown={[
+            async () => {
+              text = "Saved!";
+              await forceUpdate();
+            },
+            {
+              //highlight-start
+              eventGuards: [
+                {
+                  mask: { altKey: true, code: "KeyS" },
+                  preventDefault: true,
+                },
+              ],
+              //highlight-end
+            },
+          ]}
+          oninput={async ({ value }) => {
+            text = value;
+            await forceUpdate();
+          }}
+        />
+        <p>{text}</p>
+      </>
+    );
+  };
+};
+```
+
+In this example, we have an input element that listens for the `keydown` event. We also have an event guard that checks if the `altKey` and `code` properties of the event object are equal to `true` and `"KeyS"`, respectively. If the guard condition is met, the event is sent to the server and the `preventDefault` property of the event object is set to `true`. If the guard condition is not met, the event is not sent to the server and the `preventDefault` property of the event object is not set.

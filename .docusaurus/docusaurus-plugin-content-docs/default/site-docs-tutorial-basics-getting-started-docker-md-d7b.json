@@ -1,0 +1,27 @@
+{
+  "id": "tutorial-basics/docker",
+  "title": "Docker",
+  "description": "Docker is a tool that enables you to create, deploy, and manage lightweight, stand-alone packages that contain everything needed to run an application. It can help us to avoid conflicting dependencies & unwanted behavior when running Docusaurus.",
+  "source": "@site/docs/tutorial-basics/getting-started-docker.md",
+  "sourceDirName": "tutorial-basics",
+  "slug": "/tutorial-basics/docker",
+  "permalink": "/BSTDocs/docs/tutorial-basics/docker",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-basics/getting-started-docker.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "docker",
+    "title": "Docker"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Congratulations!",
+    "permalink": "/BSTDocs/docs/tutorial-basics/congratulations"
+  },
+  "next": {
+    "title": "Site Preparation",
+    "permalink": "/BSTDocs/docs/tutorial-basics/site-preparation"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "tutorial-basics/site-preparation",
+  "title": "Site Preparation",
+  "description": "After installing Docusaurus, you now have a skeleton to work from for your specific website. The following discusses the rest of the Docusaurus structure in order for you to prepare your site.",
+  "source": "@site/docs/tutorial-basics/getting-started-preparation.md",
+  "sourceDirName": "tutorial-basics",
+  "slug": "/tutorial-basics/site-preparation",
+  "permalink": "/BSTDocs/docs/tutorial-basics/site-preparation",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-basics/getting-started-preparation.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "site-preparation",
+    "title": "Site Preparation"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Congratulations!",
+    "permalink": "/BSTDocs/docs/tutorial-basics/congratulations"
+  },
+  "next": {
+    "title": "Publishing your site",
+    "permalink": "/BSTDocs/docs/tutorial-basics/publishing"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "tutorial-basics/installation",
+  "title": "Installation",
+  "description": "Docusaurus was designed from the ground up to be easily installed and used to get your website up and running quickly.",
+  "source": "@site/docs/tutorial-basics/getting-started-installation.md",
+  "sourceDirName": "tutorial-basics",
+  "slug": "/tutorial-basics/installation",
+  "permalink": "/BSTDocs/docs/tutorial-basics/installation",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-basics/getting-started-installation.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "installation",
+    "title": "Installation"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Docker",
+    "permalink": "/BSTDocs/docs/tutorial-basics/docker"
+  },
+  "next": {
+    "title": "Site Preparation",
+    "permalink": "/BSTDocs/docs/tutorial-basics/site-preparation"
+  }
+}

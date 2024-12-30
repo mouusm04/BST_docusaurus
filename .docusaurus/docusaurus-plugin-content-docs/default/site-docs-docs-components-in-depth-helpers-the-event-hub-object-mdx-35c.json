@@ -1,0 +1,28 @@
+{
+  "id": "docs/components-in-depth/helpers/the-event-hub-object",
+  "title": "The EventHub object",
+  "description": "The EventHub object can be used to create a real-time communication between components.",
+  "source": "@site/docs/docs/components-in-depth/helpers/the-event-hub-object.mdx",
+  "sourceDirName": "docs/components-in-depth/helpers",
+  "slug": "/docs/components-in-depth/helpers/the-event-hub-object",
+  "permalink": "/BSTDocs/docs/docs/components-in-depth/helpers/the-event-hub-object",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/docs/components-in-depth/helpers/the-event-hub-object.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "title": "The EventHub object",
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "props",
+    "permalink": "/BSTDocs/docs/docs/components-in-depth/helpers/props"
+  },
+  "next": {
+    "title": "The ComponentInstance object",
+    "permalink": "/BSTDocs/docs/docs/components-in-depth/helpers/the-component-instance-object"
+  }
+}

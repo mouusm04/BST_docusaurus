@@ -1,0 +1,28 @@
+{
+  "id": "docs/components-in-depth/handling-events",
+  "title": "Handling events",
+  "description": "Each element attribute which starts with an on prefix is considered by Drayman as an event. All events are fired in browser and then executed server-side (if you want to execute something insde browser, you can use Browser object).",
+  "source": "@site/docs/docs/components-in-depth/handling-events.mdx",
+  "sourceDirName": "docs/components-in-depth",
+  "slug": "/docs/components-in-depth/handling-events",
+  "permalink": "/BSTDocs/docs/docs/components-in-depth/handling-events",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/docs/components-in-depth/handling-events.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "title": "Handling events",
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Default props",
+    "permalink": "/BSTDocs/docs/docs/components-in-depth/default-props"
+  },
+  "next": {
+    "title": "Introduction",
+    "permalink": "/BSTDocs/docs/docs/components-in-depth/helpers/introduction"
+  }
+}

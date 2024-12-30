@@ -1,41 +1,53 @@
-# Website
+<div align="center">
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+<img height="120" src="https://i.imgur.com/HnEvlyD.png">
 
-### Installation
+<h1>Drayman</h1>
 
+Drayman is a server-side component framework.
+
+[Docs](https://drayman.io) · [Blog](https://drayman.io/blog) · [Changelog](https://github.com/Claviz/drayman/releases) · [Join Discord](https://discord.gg/5GYZTvUSxV) · [X](https://x.com/draymanio)
+
+![Version](https://img.shields.io/github/v/release/claviz/drayman)
+![GitHub Workflow Status (with event)](https://img.shields.io/github/actions/workflow/status/claviz/drayman/config.yml)
+
+</div>
+
+## ✨ Features
+
+- Drayman is designed to be easily installed and used to get your website up and running quickly.
+- Use any available HTML element, web component or custom Drayman third-party component together with server-side code in single script.
+- With Drayman, browser only renders what user should see - all logic and calculations happen server-side.
+
+## 📸 Snapshot
+
+Do you want to create a web application that, for example, allows the user to select a file from the file system and view it's contents? With Drayman it would be a single script:
+
+```tsx
+import { promises as fs } from "fs";
+
+export const component: DraymanComponent = async ({ forceUpdate }) => {
+  const files = (await fs.readdir("./")).filter((x) => x.includes("."));
+  let selectedFile;
+
+  return async () => {
+    return (
+      <>
+        <p>Select a file to view it directly from file system</p>
+        <select
+          onchange={async ({ value }) => {
+            selectedFile = value;
+            await forceUpdate();
+          }}
+        >
+          {files.map((fileName) => (
+            <option value={fileName}>{fileName}</option>
+          ))}
+        </select>
+        <br />
+        {selectedFile && <pre>{await fs.readFile(selectedFile, "utf-8")}</pre>}
+      </>
+    );
+  };
+};
 ```
-$ yarn
-```
-
-### Local Development
-
-```
-$ yarn start
-```
-
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
-
-### Build
-
-```
-$ yarn build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-### Deployment
-
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.

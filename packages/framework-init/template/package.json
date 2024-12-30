@@ -1,0 +1,16 @@
+{
+  "name": "@drayman/framework-template",
+  "version": "2.6.2",
+  "private": true,
+  "scripts": {
+    "start": "drayman-framework start"
+  },
+  "devDependencies": {
+    "@drayman/types": "latest",
+    "@types/node": "latest",
+    "typescript": "latest"
+  },
+  "dependencies": {
+    "@drayman/framework": "latest"
+  }
+}

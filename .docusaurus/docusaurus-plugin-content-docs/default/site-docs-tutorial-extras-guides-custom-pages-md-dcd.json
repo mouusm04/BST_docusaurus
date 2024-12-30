@@ -1,0 +1,27 @@
+{
+  "id": "tutorial-extras/custom-pages",
+  "title": "Custom Pages",
+  "description": "You can add pages to your site that are not part of the standard docs or blog markdown files. You can do this by adding .js files to the website/pages directory. These files are React components and the render() is called to create them, backed by CSS classes, etc.",
+  "source": "@site/docs/tutorial-extras/guides-custom-pages.md",
+  "sourceDirName": "tutorial-extras",
+  "slug": "/tutorial-extras/custom-pages",
+  "permalink": "/BSTDocs/docs/tutorial-extras/custom-pages",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-extras/guides-custom-pages.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "custom-pages",
+    "title": "Custom Pages"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Pages and Styles",
+    "permalink": "/BSTDocs/docs/tutorial-extras/api-pages"
+  },
+  "next": {
+    "title": "Navigation and Sidebars",
+    "permalink": "/BSTDocs/docs/tutorial-extras/navigation"
+  }
+}

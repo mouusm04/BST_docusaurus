@@ -1,0 +1,28 @@
+{
+  "id": "docs/interactive-examples/file-viewer",
+  "title": "File viewer",
+  "description": "This example shows how to create a Drayman component which displays a file from file system. You can check a guide about it here.",
+  "source": "@site/docs/docs/interactive-examples/file-viewer.mdx",
+  "sourceDirName": "docs/interactive-examples",
+  "slug": "/docs/interactive-examples/file-viewer",
+  "permalink": "/BSTDocs/docs/docs/interactive-examples/file-viewer",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/docs/interactive-examples/file-viewer.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "File viewer",
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "PostCSS and Tailwind CSS",
+    "permalink": "/BSTDocs/docs/docs/postcss-and-tailwind-css"
+  },
+  "next": {
+    "title": "Markdown page example",
+    "permalink": "/BSTDocs/docs/src/pages/markdown-page"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "tutorial-extras/versioning",
+  "title": "Versioning",
+  "description": "You can use the version script to cut a new documentation version based on the latest content in the docs directory. That specific set of documentation will then be preserved and accessible even as the documentation in the docs directory changes moving forward.",
+  "source": "@site/docs/tutorial-extras/guides-versioning.md",
+  "sourceDirName": "tutorial-extras",
+  "slug": "/tutorial-extras/versioning",
+  "permalink": "/BSTDocs/docs/tutorial-extras/versioning",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-extras/guides-versioning.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "versioning",
+    "title": "Versioning"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Translations & Localization",
+    "permalink": "/BSTDocs/docs/tutorial-extras/translation"
+  }
+}

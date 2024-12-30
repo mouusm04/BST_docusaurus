@@ -1,0 +1,27 @@
+{
+  "id": "tutorial-extras/translation",
+  "title": "Translations & Localization",
+  "description": "Docusaurus allows for easy translation functionality using Crowdin. Documentation files written in English are uploaded to Crowdin for translation by users within a community. Top-level pages written with English strings can be translated by wrapping any strings you want to translate in a `` tag. Other titles and labels will also be found and properly translated.",
+  "source": "@site/docs/tutorial-extras/guides-translation.md",
+  "sourceDirName": "tutorial-extras",
+  "slug": "/tutorial-extras/translation",
+  "permalink": "/BSTDocs/docs/tutorial-extras/translation",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-extras/guides-translation.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "translation",
+    "title": "Translations & Localization"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Enabling Search",
+    "permalink": "/BSTDocs/docs/tutorial-extras/search"
+  },
+  "next": {
+    "title": "Versioning",
+    "permalink": "/BSTDocs/docs/tutorial-extras/versioning"
+  }
+}

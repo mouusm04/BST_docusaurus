@@ -1,0 +1,28 @@
+{
+  "id": "docs/components-in-depth/helpers/props",
+  "title": "props",
+  "description": "An object containing component properties.",
+  "source": "@site/docs/docs/components-in-depth/helpers/props.mdx",
+  "sourceDirName": "docs/components-in-depth/helpers",
+  "slug": "/docs/components-in-depth/helpers/props",
+  "permalink": "/BSTDocs/docs/docs/components-in-depth/helpers/props",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/docs/components-in-depth/helpers/props.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "title": "props",
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "forceUpdate",
+    "permalink": "/BSTDocs/docs/docs/components-in-depth/helpers/force-update"
+  },
+  "next": {
+    "title": "The EventHub object",
+    "permalink": "/BSTDocs/docs/docs/components-in-depth/helpers/the-event-hub-object"
+  }
+}

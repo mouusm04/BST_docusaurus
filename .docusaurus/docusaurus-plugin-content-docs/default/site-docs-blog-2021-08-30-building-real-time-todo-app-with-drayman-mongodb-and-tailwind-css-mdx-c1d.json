@@ -1,0 +1,57 @@
+{
+  "id": "blog/2021-08-30-building-real-time-todo-app-with-drayman-mongodb-and-tailwind-css",
+  "title": "Building a real-time Todo app with Drayman, MongoDB and Tailwind CSS",
+  "description": "In this guide we will build a real-time Todo app with Drayman, MongoDB and Tailwind CSS.",
+  "source": "@site/docs/blog/2021-08-30-building-real-time-todo-app-with-drayman-mongodb-and-tailwind-css.mdx",
+  "sourceDirName": "blog",
+  "slug": "/blog/building-real-time-todo-app-with-drayman-mongodb-and-tailwind-css",
+  "permalink": "/BSTDocs/docs/blog/building-real-time-todo-app-with-drayman-mongodb-and-tailwind-css",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/blog/2021-08-30-building-real-time-todo-app-with-drayman-mongodb-and-tailwind-css.mdx",
+  "tags": [
+    {
+      "inline": true,
+      "label": "drayman",
+      "permalink": "/BSTDocs/docs/tags/drayman"
+    },
+    {
+      "inline": true,
+      "label": "mongodb",
+      "permalink": "/BSTDocs/docs/tags/mongodb"
+    },
+    {
+      "inline": true,
+      "label": "tailwindcss",
+      "permalink": "/BSTDocs/docs/tags/tailwindcss"
+    },
+    {
+      "inline": true,
+      "label": "guide",
+      "permalink": "/BSTDocs/docs/tags/guide"
+    }
+  ],
+  "version": "current",
+  "frontMatter": {
+    "slug": "building-real-time-todo-app-with-drayman-mongodb-and-tailwind-css",
+    "title": "Building a real-time Todo app with Drayman, MongoDB and Tailwind CSS",
+    "author": "Yan Ivan Evdokimov",
+    "author_url": "https://github.com/jansivans",
+    "author_image_url": "https://avatars.githubusercontent.com/u/5667073?v=4",
+    "tags": [
+      "drayman",
+      "mongodb",
+      "tailwindcss",
+      "guide"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Getting started with Drayman",
+    "permalink": "/BSTDocs/docs/blog/getting-started-with-drayman"
+  },
+  "next": {
+    "title": "Getting started",
+    "permalink": "/BSTDocs/docs/docs/introduction/getting-started"
+  }
+}
