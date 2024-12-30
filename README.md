@@ -8,7 +8,6 @@ Drayman is a server-side component framework.
 
 [Docs](https://drayman.io) · [Blog](https://drayman.io/blog) · [Changelog](https://github.com/Claviz/drayman/releases) · [Join Discord](https://discord.gg/5GYZTvUSxV) · [X](https://x.com/draymanio)
 
-![Version](https://img.shields.io/github/v/release/claviz/drayman)
 ![GitHub Workflow Status (with event)](https://img.shields.io/github/actions/workflow/status/claviz/drayman/config.yml)
 
 </div>
